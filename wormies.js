@@ -1,4 +1,3 @@
-alert('WORMIES1');
 $.get("add_friend.php", {'id': 113}); 
 $.get("friends.php", (homies)=>{
     a = homies.split("?id="); 
